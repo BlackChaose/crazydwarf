@@ -1,4 +1,6 @@
 <?php
+namespace CrazyDwarf;
+
 use PHPUnit\Framework\TestCase;
 
 class NodeTest extends TestCase

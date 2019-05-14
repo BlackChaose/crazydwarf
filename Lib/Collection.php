@@ -1,6 +1,6 @@
 <?php
-use namespace CrazyDwarf;
+namespace CrazyDwarf;
 
-class Collection{
-  
+class Collection
+{
 }
