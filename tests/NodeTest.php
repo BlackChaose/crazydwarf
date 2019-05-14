@@ -7,7 +7,7 @@ class NodeTest extends TestCase
 {
     public function testCreateNode()
     {
-        $node1 = new CrazyDwarf\Node('test1', null, null);
+        $node1 = new Node('test1', null, null);
         print_r($node1);
         $this->assertSame($node1->data, 'test1');
         $this->assertSame($node1->prev, null);
