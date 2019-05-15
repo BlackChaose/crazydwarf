@@ -5,7 +5,7 @@ class Node
 {
     public $next;
     public $prev;
-    public $data;
+    private $data;
 
     public function __construct($d, Node $p = null, Node $n = null)
     {
@@ -30,7 +30,8 @@ class Node
 
     public function get()
     {
-        return $this -> data;
+        $res = $this->data;
+        return $res;
     }
 
     public function set($d)

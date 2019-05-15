@@ -1,3 +1,3 @@
 phpunit=./vendor/bin/phpunit
 test:
-	$(phpunit) tests
+	$(phpunit) --colors=always tests
